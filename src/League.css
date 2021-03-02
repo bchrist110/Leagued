@@ -1,0 +1,12 @@
+li {
+    list-style-type: none;
+    text-align: center;
+}
+
+.navlink {
+    background: lightgrey;
+    border: 1px solid #222;
+    padding: 0px 50px;
+    font-size: 18px;
+    font-weight: bold;
+  }

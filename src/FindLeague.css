@@ -1,0 +1,12 @@
+h3 {
+    color:white;
+}
+
+.navlink {
+    background: lightgrey;
+    border: 1px solid #222;
+    padding: 0px 50px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+  }

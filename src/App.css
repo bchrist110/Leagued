@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    background-image: url("https://cdn.wallpapersafari.com/36/85/se0GRy.jpg") ;
+    text-align: center;
+}
+
+.App > header {
+    color: #fcfaf1;
+}
+  
+.App > nav {
+    background-color: #222;
+}
+  
+.App > main p {
+    color: lightgrey;
+}
+  
+.App > footer {
+    background-color: #555;
+    color: #e0dfda;
+}
+
+h2 {
+    color:white;
+}
+
+
+  
