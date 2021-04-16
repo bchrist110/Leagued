@@ -1,6 +1,6 @@
 # Leagued
 
-This repository is the backend portion of Leagued.
+This repository is the frontend portion of Leagued.
 
 A full-stack application used to help parents and children keep track of their youth basketball league.
 
