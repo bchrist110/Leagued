@@ -178,7 +178,7 @@ export default class AddGameForm extends Component {
             "awayteamblocks": awayBlocks.value
         }
 
-        fetch(`https://immense-inlet-20379.herokuapp.com/api/games/${gameid}`, {
+        fetch(`https://leagued-api.vercel.app/api/games/${gameid}`, {
             method: 'PATCH',
             headers: {
                 'content-type': 'application/json'

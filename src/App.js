@@ -63,7 +63,7 @@ class App extends Component {
     this.state.games.splice(indexToFind, 1, newGame)
   };
   componentDidMount() {
-    fetch('https://immense-inlet-20379.herokuapp.com/api/leagues/', {
+    fetch('https://leagued-api.vercel.app/api/leagues/', {
       method: 'GET',
     })
       .then(res => {
@@ -75,7 +75,7 @@ class App extends Component {
       .then(this.setLeagues)
       .catch(error => this.setState({ error }))
     
-    fetch('https://immense-inlet-20379.herokuapp.com/api/teams/', {
+    fetch('https://leagued-api.vercel.app/api/teams/', {
         method: 'GET',
       })
         .then(res => {
@@ -86,7 +86,7 @@ class App extends Component {
         })
         .then(this.setTeams)
         .catch(error => this.setState({ error }))
-    fetch('https://immense-inlet-20379.herokuapp.com/api/games/', {
+    fetch('https://leagued-api.vercel.app/api/games/', {
           method: 'GET',
         })
           .then(res => {
@@ -98,7 +98,7 @@ class App extends Component {
           .then(this.setGames)
           .catch(error => this.setState({ error }))
           
-    fetch('https://immense-inlet-20379.herokuapp.com/api/players/', {
+    fetch('https://leagued-api.vercel.app/api/players/', {
             method: 'GET',
           })
             .then(res => {
